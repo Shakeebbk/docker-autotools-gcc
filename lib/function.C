@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "config.h"
 
-#include "function.h"
+#include "function.H"
 
 void hello(char *msg)
 {

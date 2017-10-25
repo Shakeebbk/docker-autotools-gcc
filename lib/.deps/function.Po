@@ -1,4 +1,4 @@
-main.o: main.C /usr/include/stdc-predef.h /usr/include/stdio.h \
+function.o: function.C /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -11,7 +11,7 @@ main.o: main.C /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h config.h lib/function.H
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h ../config.h function.H
 
 /usr/include/stdc-predef.h:
 
@@ -49,6 +49,6 @@ main.o: main.C /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 /usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
-config.h:
+../config.h:
 
-lib/function.H:
+function.H:

@@ -27,5 +27,5 @@
 /* Version number of package */
 #undef VERSION
 
-#define PROG1
 #define DD1
+#define PROG1

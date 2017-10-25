@@ -21,6 +21,6 @@ AX_CXX_COMPILE_STDCXX_11
 # Checks for typedefs, structures, and compiler characteristics.
 
 # Checks for library functions.
-
-AC_CONFIG_FILES([Makefile])
+AC_PROG_RANLIB
+AC_CONFIG_FILES([Makefile lib/Makefile])
 AC_OUTPUT

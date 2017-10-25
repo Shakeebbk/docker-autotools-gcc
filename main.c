@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "config.h"
 
-#include "function.h"
+#include "function.H"
 
 int main(int argc, char* argv[])
 {

@@ -46,3 +46,4 @@ autom4te.cache
 
 *.o
 *.O
+.deps/*

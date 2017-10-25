@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include "config.h"
 
+#include "function.h"
+
 int main(int argc, char* argv[])
 {
 #ifdef PROG1
-   printf("Hello, world!\n");
+   hello((char*)"PROG1");
 #else
-   printf("Another Hello!\n");
+   hello((char*)"PROG2");
 #endif
 
    return 0;

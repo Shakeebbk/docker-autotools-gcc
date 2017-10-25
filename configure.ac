@@ -10,7 +10,9 @@ AC_CONFIG_SRCDIR([main.c])
 AC_CONFIG_HEADER([config.h])
 
 # Checks for programs.
-AC_PROG_CC
+AC_PROG_CXX
+AC_LANG([C++])
+AX_CXX_COMPILE_STDCXX_11
 
 # Checks for libraries.
 

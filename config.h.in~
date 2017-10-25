@@ -1,8 +1,5 @@
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
-/* define if the compiler supports basic C++11 syntax */
-#undef HAVE_CXX11
-
 /* Name of package */
 #undef PACKAGE
 
@@ -26,6 +23,3 @@
 
 /* Version number of package */
 #undef VERSION
-
-#define PROG1
-#define DD1

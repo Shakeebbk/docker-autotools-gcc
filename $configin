@@ -1,4 +1,4 @@
-/* config.h.in.  Generated from configure.ac by autoheader.  */
+/* $configin.  Generated from configure.ac by autoheader.  */
 
 /* define if the compiler supports basic C++11 syntax */
 #undef HAVE_CXX11
@@ -26,7 +26,3 @@
 
 /* Version number of package */
 #undef VERSION
-
-#include <DD1.config.in>
-
-#include <DD2.config.in>

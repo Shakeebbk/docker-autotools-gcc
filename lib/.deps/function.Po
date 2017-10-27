@@ -12,7 +12,7 @@ function.o: function.C /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h ../config.h ../myconfig.h \
- ../DD1.config.in function.H
+ ../DD2.config.in function.H
 
 /usr/include/stdc-predef.h:
 
@@ -54,6 +54,6 @@ function.o: function.C /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 ../myconfig.h:
 
-../DD1.config.in:
+../DD2.config.in:
 
 function.H:

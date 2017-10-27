@@ -1,5 +1,5 @@
 AM_CFLAGS = -I./lib
-AM_CPPFLAGS = -I./lib
+AM_CPPFLAGS = -I./lib -include config.h
 
 SUBDIRS = lib
 

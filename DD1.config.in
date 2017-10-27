@@ -1,2 +1,2 @@
 #define DD1
-#undef PROG1
+#define PROG2
